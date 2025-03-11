@@ -1,19 +1,4 @@
-   
-        let myArray = ['Apple', 'Banana', 'Cherry'];
-
-
-        function addElement() {
-            myArray.push('Orange');
-            displayArray();
-        }
-
-
-        function removeElement() {
-            myArray.pop();
-            displayArray();
-        }
-
-
-        function displayArray() {
-            document.getElementById('arrayOutput').innerText = `Array: ${myArray.join(', ')}`;
-        }
+document.getElementById("a1").style.color="blue";
+    
+var animals=["Lions","Tigers","Monkey"];
+document.getElementById("a2").innerHTML=animals;
